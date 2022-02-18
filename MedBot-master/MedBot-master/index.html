@@ -1,0 +1,85 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Экспертная система «Домашний доктор»</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link type="text/css" rel=stylesheet href="expert.css" />
+    <link rel="stylesheet" type="text/css" media="only screen and (max-width: 480px), only screen and (max-device-width: 480px)" href="small-device.css" />
+    <script type="text/javascript" src="expert.js"></script>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <!-- <script type="text/javascript" src="FileSaver.js"></script> -->
+</head>
+
+<body class="b_page">
+    <div class="b_top_bar">
+        <div id=start_test class="border_radius b_button b_page_shadows b_button_clickable b_page_transition">
+            Начать диагностику
+        </div>
+        <!-- <div id=data_format  class="border_radius b_button b_page_shadows b_button_clickable b_page_transition">
+            Формат данных
+        </div>-->
+        <div id=data_load class="border_radius b_button b_page_shadows b_button_clickable b_page_transition">
+            Загрузить базу знаний
+        </div>
+        <div id=data_save class="border_radius b_button b_page_shadows b_button_clickable b_page_transition">
+            Сохранить базу знаний
+        </div>
+        <div id=testing class="border_radius b_button b_page_shadows b_button_clickable b_page_transition">
+            Инженерное меню
+        </div>
+        <input id=inputFile type="file" />
+        <span id="test_title" class="b_top_bar__title"></span>
+    </div>
+    <div class="b_page_main">
+        <!-- <div>
+	<img src="Bunner.png" alt="Экспертная система Домашний доктор" width="852px" height="400px"> 
+	</div>-->
+        <textarea id="test" class=" b_input__area b_page_transition border_radius left_side" placeholder="Введите тест сюда. Затем нажмите Начать"></textarea>
+        <textarea id="test1" class=" b_input__area b_page_transition border_radius left_side"></textarea>
+        <div class="b_page_test_switch ">
+
+        </div>
+    </div>
+    <div class="b_page_test hide">
+        <div class="b_page_questions_answers">
+            <div id=current_question class="b_page_questions__current border_radius">Текущий вопрос!</div>
+            <div class="b_page_answers" id=current_answer>
+
+                <input type="radio" name="r" id=current_answer class="b_page_questions__answer" value="0" placeholder="Нет">
+                <input type="radio" name="r" id=current_answer class="b_page_questions__answer" value="25" placeholder="Наверно нет">
+                <input type="radio" name="r" id=current_answer class="b_page_questions__answer" value="50" placeholder="Не знаю" checked="checked">
+                <input type="radio" name="r" id=current_answer class="b_page_questions__answer" value="75" placeholder="Наверно да">
+                <input type="radio" name="r" id=current_answer class="b_page_questions__answer" value="100" placeholder="Да">
+
+                <div id=complete_answer class="b_button b_page_shadows border_radius b_page_transition b_button_clickable">Ответить</div>
+                <div id=complete_answer_test class="b_button b_page_shadows border_radius b_page_transition b_button_clickable">Ответить</div>
+                <br>
+                <label>      Нет           Наверно нет      Не знаю        Наверно да            Да</label>
+            </div>
+        </div>
+
+        <div class="b_page_diagnose">
+            <div class="b_page_questions_diagnose"> Предполагаемые диагнозы:</div>
+            <div class="b_page_test_items">
+            </div>
+        </div>
+        <div class="b_page_questions ">
+            <div class="b_page_description">
+                <div class="b_page_questions_diagnose"> Список пройденных вопросов:</div>
+                <div class="b_page_questions__answers border-radius" id="answers">
+
+
+                </div>
+            </div>
+
+        </div>
+        <!--<div class="b_page_diagnose_test">-->
+        <table id=table class="b_table" border="1">
+        </table>
+        <!--</div>-->
+    </div>
+
+</body>
+
+</html>

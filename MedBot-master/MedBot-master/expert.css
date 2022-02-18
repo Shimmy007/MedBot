@@ -1,0 +1,383 @@
+﻿.b_page {
+    background-color: #e0e6e7;
+    margin: 0;
+    font-family: sans-serif, Arial;
+}
+
+.b_top_bar__title {
+    color: #000;
+    font-size: 21px;
+}
+
+.b_top_bar {
+    margin: 0;
+    width: 852px;
+    height: 70px;
+    background-color: #fff;
+}
+
+.b_input__area {
+    background: #fff;
+    width: 300px;
+    padding: 10px;
+    margin-top: 4px;
+    margin-left: 10px;
+    height: 400px;
+    border-color: #fff;
+    color: #000;
+}
+
+.b_page_main {}
+
+.border_radius {
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.b_button {
+    color: #fff;
+    background-color: #0271c7;
+    height: 32px;
+    line-height: 32px;
+    font-size: 16px;
+    margin-left: 20px;
+    margin-top: 5px;
+    padding: 0 15px;
+    display: inline-block;
+    border: 0;
+    text-decoration: none;
+    text-align: center;
+}
+
+.b_table {
+    overflow-x: auto;
+    background-color: #fff;
+    color: #000;
+    margin-left: 10px;
+    border: medium solid #0271c7;
+    width: 100px;
+}
+
+.b_page_transition {
+    -webkit-transition: background-color 0.2s;
+    -moz-transition: background-color 0.2s;
+    -o-transition: background-color 0.2s;
+    transition: background-color 0.2s;
+}
+
+.b_page_shadows {
+    text-shadow: none;
+    -moz-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.b_button_clickable:hover {
+    cursor: pointer;
+    background-color: #008dfa;
+}
+
+.hide {
+    display: none;
+}
+
+.b_page_test {
+    width: 735px;
+    color: #000;
+    margin-top: 10px;
+    border: medium solid #0271c7;
+    margin-right: 550px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.left_side {
+    float: left;
+}
+
+.top {
+    top: 50px;
+}
+
+.b_page_test_answers {
+    color: #000;
+    margin-top: 20px;
+    border: medium none #000000;
+    margin-right: 560px;
+    margin-left: 5px;
+    margin-bottom: 20px;
+}
+
+.b_page_answers {
+    margin-top: 20px;
+    height: 70px;
+    width: 700px;
+    margin-left: 20px;
+}
+
+.b_page_test_items,
+.b_page_test_switch {
+    width: 700px;
+    margin-left: 10px;
+    height: 200px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    margin-top: 0px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+
+.b_page_test_items__item,
+.b_page_test_switch__item {
+    margin-top: 4px;
+    font: 14px;
+    background-color: #fff;
+    color: #000;
+    height: 30px;
+    padding-left: 20px;
+    line-height: 30px;
+    width: 680px;
+}
+
+.b_page_test_items__item_test,
+.b_page_test_switch__item_test {
+    margin-top: 4px;
+    font: 14px;
+    background-color: #fff;
+    color: #000;
+    height: 30px;
+    padding-left: 20px;
+    line-height: 30px;
+    width: 350px;
+}
+
+.b_page_test_switch__item {
+    height: 60px;
+    overflow: hidden;
+    padding: 3px;
+    width: 495px;
+    margin-left: 20px;
+    text-align: center;
+}
+
+.b_page_test_switch__item:hover {
+    cursor: pointer;
+}
+
+.b_page_test_items__item_percent {
+    float: right;
+    overflow: hidden;
+    margin-right: 35px;
+    font-size: 17px;
+    font-weight: 100;
+    margin-left: 30px;
+    width: 33px;
+    overflow: hidden;
+}
+
+.b_page_questions_diagnose {
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 700px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.b_page_diagnose {
+    width: 720px;
+    color: #000;
+    ;
+    margin-top: 10px;
+    border: medium solid #0271c7;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-bottom: 20px;
+}
+
+.b_page_diagnose_test {
+    width: 720px;
+    color: #000;
+    ;
+    margin-top: 10px;
+    border: medium double #7A8484;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-bottom: 20px;
+}
+
+.b_page_description {
+    width: 720px;
+    color: #000;
+    ;
+    margin-top: 10px;
+    border: medium solid #0271c7;
+    margin-bottom: 20px;
+    margin-left: -15px;
+    margin-right: -7px;
+}
+
+.b_page_questions_answers {
+    width: 720px;
+    color: #000;
+    ;
+    margin-top: 20px;
+    border: medium solid #0271c7;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-bottom: 20px;
+}
+
+.b_page_questions {
+    margin-top: 15px;
+    margin-left: 20px;
+    width: 700px;
+    height: 100%;
+}
+
+.b_page_questions__answers {
+    font-size: 20px;
+    height: 200px;
+    width: 680px;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    background-color: #fff;
+    overflow-y: auto;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.b_page_questions__answer {
+    font-size: 20px;
+    height: 380px;
+    width: 480px;
+    padding: 10px;
+    overflow-y: auto;
+}
+
+.b_page_questions__answers_item {
+    margin-left: 7px;
+    margin-top: 3px;
+}
+
+.b_page_questions__current {
+    width: 692px;
+    height: 36px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 8px;
+    padding: 4px;
+    font-size: 18px;
+    color: #000;
+    background-color: #fff;
+    margin-right: 5px;
+}
+
+.b_page_questions__answer {
+    width: 100px;
+    height: 20px;
+    padding: 5px;
+    font-size: 15px;
+    color: #0271c7;
+}
+
+.b_page_test_switch__selected {
+    background-color: #eee;
+}
+
+.b_page_test_items__item_title,
+.b_page_test_items__item {
+    overflow: hidden;
+}
+
+.b_page_input {
+    background-color: #fff;
+    float: left;
+    padding: 10px;
+}
+
+.b_input {
+    height: 25px;
+    font-size: 15px;
+}
+
+.b_textarea {
+    height: 200px;
+    width: 500px;
+    display: block;
+}
+
+.b_variable_form {
+    margin-left: 20px;
+    background-color: #fff;
+    padding: 15px;
+}
+
+.existing_variables_background_none {
+    background-color: transparent;
+}
+
+.b_textarea_margin {
+    margin-top: 15px;
+}
+
+.b_page_input_hide {
+    display: none;
+}
+
+.b_checkbox {
+    vertical-align: bottom;
+}
+
+.b_page_test_switch__item_small {
+    height: 30px;
+}
+
+.b_input_long {
+    width: 440px;
+}
+
+.right_side {
+    float: right;
+}
+
+.b_variable_form__line_height {
+    line-height: 31px;
+    margin-top: 10px;
+}
+
+.b_variable_form_long {
+    width: 580px;
+}
+
+.b_page_questions__answer_long {
+    width: 300px;
+}
+
+p:hover {
+    background-color: #efefef;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    clear: both;
+}
+
+label {
+    display: inline;
+    padding: 0.5em 0.5em 0.5em 2em;
+}
+
+input {
+    float: left;
+    position: relative;
+    top: 0.5em;
+    left: 0.5em;
+}
+
+#inputFile,
+#test1 {
+    display: none;
+}
